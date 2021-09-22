@@ -23,7 +23,7 @@ public class BrowserTest {
 		driver.get("http://testdemo.azurewebsites.net/webapp/");
 		String text =driver.findElement(By.cssSelector("h1")).getText();
 		System.out.println(text);
-		Assert.assertTrue(text.equalsIgnoreCase("my devops Learing"));
+		Assert.assertTrue(text.equalsIgnoreCase("My devops Learning"));
 		driver.close();
 	
 		
